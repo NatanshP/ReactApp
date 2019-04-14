@@ -1,0 +1,61 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /home/natansh/bin:/home/natansh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath_target_178907515:/mnt/c/Program Files (x86)/clisp-2.49:/mnt/c/Program Files/Git/cmd:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/nodejs:/mnt/c/Program Files (x86)/Yarn/bin:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Intel/WiFi/bin:/mnt/c/Program Files/Common Files/Intel/WirelessCommon:/mnt/c/Users/Natansh/AppData/Local/Microsoft/WindowsApps:/mnt/c/iverilog/bin:/mnt/c/Users/Natansh/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Natansh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Natansh/AppData/Roaming/npm:/mnt/c/Users/Natansh/AppData/Local/Yarn/bin:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/Natansh/Desktop/Housing.Seller/housing.seller/bin:/snap/bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  6.14.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: socket hang up
+      at TLSSocket.onHangUp (_tls_wrap.js:1124:19)
+      at TLSSocket.g (events.js:292:16)
+      at emitNone (events.js:91:20)
+      at TLSSocket.emit (events.js:185:7)
+      at endReadableNT (_stream_readable.js:974:12)
+      at _combinedTickCallback (internal/process/next_tick.js:80:11)
+      at process._tickCallback (internal/process/next_tick.js:104:9)
+
+npm manifest: 
+  {
+    "name": "website",
+    "version": "1.0.0",
+    "description": "React app",
+    "main": "index.js",
+    "scripts": {
+      "test": "test",
+      "start": "webpack-dev-server --mode development --open --hot",
+      "build": "webpack --mode production"
+    },
+    "author": "Natansh Prasad",
+    "license": "ISC",
+    "dependencies": {
+      "react": "^16.8.1",
+      "react-dom": "^16.8.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.2.2",
+      "@babel/preset-env": "^7.3.1",
+      "@babel/preset-react": "^7.0.0",
+      "babel-loader": "^8.0.5",
+      "css-loader": "^2.1.0",
+      "html-webpack-plugin": "^3.2.0",
+      "style-loader": "^0.23.1",
+      "webpack": "^4.29.3",
+      "webpack-cli": "^3.2.3",
+      "webpack-dev-server": "^3.1.14"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
