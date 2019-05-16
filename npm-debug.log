@@ -1,39 +1,35 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/node',
-1 verbose cli   '/usr/bin/npm',
-1 verbose cli   'install',
-1 verbose cli   'html-webpack-plugin',
-1 verbose cli   '--save-dev' ]
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'graphql' ]
 2 info using npm@3.10.10
 3 info using node@v6.14.1
 4 silly loadCurrentTree Starting
 5 silly install loadCurrentTree
 6 silly install readLocalPackageData
-7 silly fetchPackageMetaData html-webpack-plugin
-8 silly fetchNamedPackageData html-webpack-plugin
-9 silly mapToRegistry name html-webpack-plugin
+7 silly fetchPackageMetaData graphql
+8 silly fetchNamedPackageData graphql
+9 silly mapToRegistry name graphql
 10 silly mapToRegistry using default registry
 11 silly mapToRegistry registry https://registry.npmjs.org/
 12 silly mapToRegistry data Result {
-12 silly mapToRegistry   raw: 'html-webpack-plugin',
+12 silly mapToRegistry   raw: 'graphql',
 12 silly mapToRegistry   scope: null,
-12 silly mapToRegistry   escapedName: 'html-webpack-plugin',
-12 silly mapToRegistry   name: 'html-webpack-plugin',
+12 silly mapToRegistry   escapedName: 'graphql',
+12 silly mapToRegistry   name: 'graphql',
 12 silly mapToRegistry   rawSpec: '',
 12 silly mapToRegistry   spec: 'latest',
 12 silly mapToRegistry   type: 'tag' }
-13 silly mapToRegistry uri https://registry.npmjs.org/html-webpack-plugin
-14 verbose request uri https://registry.npmjs.org/html-webpack-plugin
+13 silly mapToRegistry uri https://registry.npmjs.org/graphql
+14 verbose request uri https://registry.npmjs.org/graphql
 15 verbose request no auth needed
-16 info attempt registry request try #1 at 11:28:23 PM
-17 verbose request id ad11a37c1b6ab4af
-18 http request GET https://registry.npmjs.org/html-webpack-plugin
+16 info attempt registry request try #1 at 12:01:19 AM
+17 verbose request id bfcad7ba4e49e2d0
+18 http request GET https://registry.npmjs.org/graphql
 19 info retry will retry, error on last attempt: Error: socket hang up
-20 info attempt registry request try #2 at 11:28:41 PM
-21 http request GET https://registry.npmjs.org/html-webpack-plugin
+20 info attempt registry request try #2 at 12:01:29 AM
+21 http request GET https://registry.npmjs.org/graphql
 22 info retry will retry, error on last attempt: Error: socket hang up
-23 info attempt registry request try #3 at 11:29:41 PM
-24 http request GET https://registry.npmjs.org/html-webpack-plugin
+23 info attempt registry request try #3 at 12:02:29 AM
+24 http request GET https://registry.npmjs.org/graphql
 25 silly fetchPackageMetaData Error: socket hang up
 25 silly fetchPackageMetaData     at TLSSocket.onHangUp (_tls_wrap.js:1124:19)
 25 silly fetchPackageMetaData     at TLSSocket.g (events.js:292:16)
@@ -42,7 +38,7 @@
 25 silly fetchPackageMetaData     at endReadableNT (_stream_readable.js:974:12)
 25 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
 25 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
-25 silly fetchPackageMetaData  error for html-webpack-plugin { Error: socket hang up
+25 silly fetchPackageMetaData  error for graphql { Error: socket hang up
 25 silly fetchPackageMetaData     at TLSSocket.onHangUp (_tls_wrap.js:1124:19)
 25 silly fetchPackageMetaData     at TLSSocket.g (events.js:292:16)
 25 silly fetchPackageMetaData     at emitNone (events.js:91:20)
@@ -64,7 +60,7 @@
 30 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
 31 verbose cwd /mnt/c/Users/Natansh/Desktop/ReactApp/website
 32 error Linux 4.4.0-17134-Microsoft
-33 error argv "/usr/bin/node" "/usr/bin/npm" "install" "html-webpack-plugin" "--save-dev"
+33 error argv "/usr/bin/node" "/usr/bin/npm" "install" "graphql"
 34 error node v6.14.1
 35 error npm  v3.10.10
 36 error code ECONNRESET

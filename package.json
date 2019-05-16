@@ -11,6 +11,7 @@
   "author": "Natansh Prasad",
   "license": "ISC",
   "dependencies": {
+    "graphql": "^14.3.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1"
   },
